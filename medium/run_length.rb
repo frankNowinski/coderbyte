@@ -3,7 +3,7 @@
 # This algorithm works by taking the occurrence of each repeating character and 
 # outputting that number along with a single character of the repeating sequence. 
 # For example: "wwwggopp" would return 3w2g1o2p. The string will not contain any 
-# numbers, punctuation, or symbols. 
+# numbers, punctuation, or symbols.
 
 def run_length(str)
   arr = []
