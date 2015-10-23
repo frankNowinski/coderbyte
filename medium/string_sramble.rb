@@ -5,12 +5,10 @@
 # not be entered with the parameters. 
 
 def string_scramble(str1, str2)
-
   str2.chars do |char|
     return false if !str1.include?(char)
   end
   true
-  
 end
 
 puts string_scramble("lrdwodlasdf", "world")
