@@ -11,9 +11,9 @@ def counting_minutes(str)
   time2 = convert(times[1])
 
   if time1 > time2
-    return 1440 - time1.to_i + time2.to_i
+    return 1440 - time1 + time2
   elsif time2 > time1
-    return time2.to_i - time1.to_i
+    return time2 - time1
   else
     return 1440
   end
@@ -33,21 +33,6 @@ end
 
 str = "1:00pm-11:00am"
 second = "12:30pm-12:00am"
-puts counting_minutes(str)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+puts counting_minutes(second)
 
 
